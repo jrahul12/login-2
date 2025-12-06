@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("../images/bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.login-header {
+    padding: 30px;
+    background: #9fbae8;
+    color: white;
+    text-align: center;
+}
+
+.login-header h3 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    height: 45px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link {
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 6px 18px;
+}
