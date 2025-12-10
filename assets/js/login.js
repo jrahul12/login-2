@@ -39,7 +39,7 @@ async function onLoginSubmit(eve) {
         }
         localStorage.setItem('token', data.token)
         localStorage.setItem('userRole', data.userRole)
-        // snackBar("Login successfully!", "success");
+        snackBar("Login successfully!", "success");
         window.location.href = "dashboard.html";
         loginUpForm.reset();
     } catch (err) {
